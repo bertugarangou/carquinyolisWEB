@@ -1,0 +1,28 @@
+baseURL = "https://carquinyolis.cat/"
+DefaultContentLanguage = "ca"
+title = "Carquinyolis.cat"
+theme: "PaperMod"
+paginate = 5
+enableRobotsTXT = true
+googleAnalytics = "G-E4X5HHP50H"
+enableGitInfo = true
+
+[minify]
+minifyOutput = true
+
+[Params]
+commit = "https://github.com/bertugarangou/bertugarangou/tree/"
+
+[Author]
+name = "Albert Garangou Culebras"
+website = "https://carquinyolis.cat"
+email = "albertgarangou@gmail.com"
+github = "bertugarangou"
+twitter = "carquinyolis"
+instagram = "carquinyolis.cat"
+
+[languages]
+  [languages.ca]
+    contentDir = "content/ca"
+  [languages.en]
+    contentDir = "content/en"
